@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>xmarket</name>
+    <creationDate>2009-08-06</creationDate>
+    <author>OpenX</author>
+    <authorEmail>plugins@openx.org</authorEmail>
+    <authorUrl>www.openx.org</authorUrl>
+    <license>GPL</license>
+    <description>xmarket</description>
+    <version>1.0.1</version>
+    <oxversion>2.8.0</oxversion>
+    <extends>admin</extends>
+    <install>
+        <files>
+            <file path="{ADMINPATH}/">xmarket.php</file>
+        </files>
+        <components>
+             <component>
+                 <name>xmarket</name>
+             </component>
+        </components>
+    </install>
+</plugin>

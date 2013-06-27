@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>xmarket</name>
+    <creationDate>2009-08-06</creationDate>
+    <author>OpenX</author>
+    <authorEmail>plugins@openx.org</authorEmail>
+    <authorUrl>www.openx.org</authorUrl>
+    <license>GPL</license>
+    <description>xmarket</description>
+    <version>1.0.1</version>
+    <oxversion>2.8.0</oxversion>
+    <type>extension</type>
+    <install>
+
+        <files>
+            <file path="{PLUGINPATH}">xmarket.readme.txt</file>
+        </files>
+
+        <contents>
+            <group name="xmarket">1</group>
+        </contents>
+
+    </install>
+    <readme>
+    </readme>
+</plugin>

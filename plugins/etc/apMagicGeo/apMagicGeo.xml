@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>apMagicGeo</name>
+    <creationDate>2011-02-28</creationDate>
+    <author>AdserverPlugins.com</author>
+    <authorEmail>info@adserverplugins.com</authorEmail>
+    <authorUrl>http://www.adserverplugins.com/openx/free-plugins-for-openx-ad-server/magic-geo-macros/</authorUrl>
+    <license><![CDATA[
+        <a href="http://creativecommons.org/licenses/by-nd/3.0/">Creative Commons Attribution-No Derivative Works 3.0 Unported</a>
+    ]]></license>
+    <description>Geolocation Magic Macros</description>
+    <version>1.0.0</version>
+    <oxversion>2.8.0</oxversion>
+    <extends>deliveryAdRender</extends>
+    <install>
+
+        <syscheck>
+            <depends>
+                <plugin version="1.0.2" enabled="1">Geo</plugin>
+            </depends>
+        </syscheck>
+        
+        <files>
+            <file path="{MODULEPATH}deliveryAdRender/apMagicGeo/">apMagicGeo.delivery.php</file>
+        </files>
+
+        <components>
+            <component>
+                <name>apMagicGeo</name>
+                <hook>postAdRender</hook>
+            </component>
+        </components>
+
+    </install>
+</plugin>

