@@ -1,0 +1,17 @@
+en:
+  activerecord:
+    attributes:
+      doctor_profile:
+        price_per_hour_cents: price per hour
+        price_per_minute_cents: price per minute
+      request:
+        caller_number: phone number
+      user:
+        agree_on_terms: agreement on our terms and conditions
+        phone_raw_number: phone number
+    errors:
+      models:
+        question:
+          attributes:
+            content:
+              already_have_activities: Unable to edit question because it was answered or followed by other users.
