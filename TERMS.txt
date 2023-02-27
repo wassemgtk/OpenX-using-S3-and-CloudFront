@@ -136,7 +136,7 @@ TERMS AND CONDITIONS OF USE
    2. For any other loss, damage or expense incurred and arising out of the
    performance of these Terms and Conditions of Use, OpenX limits its
    liability to damages only and the level of such damages shall not exceed
-   one thousand pounds (ÂL1,000) for all or any claims or series of related
+   one thousand pounds (Ã‚L1,000) for all or any claims or series of related
    claims.
 
    3. The terms of clauses 9.1 and 9.2 do not affect OpenX's liability for
@@ -524,4 +524,4 @@ OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR
 DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR
 A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH
 HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
+.
